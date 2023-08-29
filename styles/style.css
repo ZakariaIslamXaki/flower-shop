@@ -1,3 +1,4 @@
+/* Sharing Styles */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,11 @@
     padding: 20px 50px;
 }
 
+.highlight-text {
+    color: #E55473;
+}
+
+/* Banner section style */
 .banner-section {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -40,14 +46,13 @@
 }
 
 .banner-image {
-    max-width: 50%;
     height: auto;
-    margin-bottom: 50px;
-    margin: 50px;
+    margin-right: 50px;
 }
 
+/* products section style */
 .products-section {
-    margin: 20px 50px;
+    margin: 50px 50px;
 }
 
 .product-text {
@@ -114,7 +119,9 @@
     padding-bottom: 30px;
 }
 
+/* deal section style */
 .deal-section {
+    margin: 50px 0px;
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: center;
@@ -139,8 +146,9 @@
     margin-left: 150px;
 }
 
+/* Insta Section Style */
 .insta-section {
-    margin: 20px 50px;
+    margin: 50px 50px;
 
 }
 
@@ -189,9 +197,9 @@
 .insta-products-4 {
     margin-left: 10px;
 }
-
+/* Newsletter Section Style */
 .newsletter-section {
-    margin: 20px 50px;
+    margin: 50px 50px;
     background-color: white;
     background-image: url("/asset/Rectangle\ 9.png");
     height: 450px;
@@ -224,8 +232,9 @@
     width: 700px;
     height: 64px;
 }
-
+/* Map Section Style */
 .map-section {
+    margin: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -248,20 +257,22 @@
     font-size: 18px;
     padding-bottom: 10px;
 }
-
+/* Footer Section Style */
 .footer-section {
     background-color: black;
     color: white;
     text-align: center;
     padding: 150px;
 }
-.footer-section h1{
+
+.footer-section h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 800;
     font-size: 40px;
     padding-bottom: 10px;
 }
-.footer-section p{
+
+.footer-section p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
