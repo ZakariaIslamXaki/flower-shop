@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary-btn {
+    color: white;
+    background-color: #E55473;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.banner-section {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+
+}
+
+.banner-text {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.banner-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.banner-pera {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.banner-image {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 50px;
+    margin: 50px;
+}
+
+.products-section {
+    margin: 20px 50px;
+}
+
+.product-text {
+    text-align: center;
+}
+.product-text h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.product-text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-1 img {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 310px;
+    height: 428px;
+}
+
+.products-1 h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.products-2 img {
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 310px;
+    height: 428px;
+}
+
+.products-2 h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.products-3 img {
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 310px;
+    height: 428px;
+}
+
+.products-3 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
