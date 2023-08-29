@@ -121,8 +121,6 @@
     align-items: center;
 }
 
-.deal-text {}
-
 .deal-text h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 800;
@@ -223,4 +221,24 @@
 .newsletter-text input {
     width: 700px;
     height: 64px;
+}
+.map-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map-text{
+    margin-right: 20px;
+}
+.map-text h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.map-text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 10px;
 }
