@@ -119,6 +119,25 @@
     padding-bottom: 30px;
 }
 
+/* Delivery Section Style */
+.delivery-section {
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 50px 50px;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.delivery-1 img {
+    padding: 0 75px;
+}
+.delivery-2 img {
+    padding: 0 75px;
+}
+.delivery-3 img {
+    padding: 0 15px;
+}
+
 /* deal section style */
 .deal-section {
     margin: 50px 0px;
@@ -197,6 +216,7 @@
 .insta-products-4 {
     margin-left: 10px;
 }
+
 /* Newsletter Section Style */
 .newsletter-section {
     margin: 50px 50px;
@@ -232,6 +252,7 @@
     width: 700px;
     height: 64px;
 }
+
 /* Map Section Style */
 .map-section {
     margin: 50px 0px;
@@ -257,6 +278,7 @@
     font-size: 18px;
     padding-bottom: 10px;
 }
+
 /* Footer Section Style */
 .footer-section {
     background-color: black;
