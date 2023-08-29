@@ -53,18 +53,21 @@
 .product-text {
     text-align: center;
 }
-.product-text h1{
+
+.product-text h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 800;
     font-size: 40px;
     padding-bottom: 10px;
 }
-.product-text p{
+
+.product-text p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
     padding-bottom: 30px;
 }
+
 .products {
     display: flex;
     justify-content: space-between;
@@ -109,4 +112,78 @@
     font-weight: 700;
     font-size: 24px;
     padding-bottom: 30px;
+}
+
+.deal-section {
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal-text {}
+
+.deal-text h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.deal-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.deal-section button {
+    margin-left: 150px;
+}
+
+.insta-section {
+    margin: 20px 50px;
+
+}
+
+.insta-text {
+    text-align: center;
+}
+
+.insta-text h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.insta-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.insta-products {
+
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-products img {
+    width: 100%;
+    height: 100%;
+}
+.insta-products-1{
+    margin-left: 10px;
+}
+.insta-products-2{
+    margin-left: 10px;
+}
+.insta-products-3{
+    margin-left: 10px;
+}
+.insta-products-4{
+    margin-left: 10px;
 }
